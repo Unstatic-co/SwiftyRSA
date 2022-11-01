@@ -6,8 +6,8 @@ let package = Package(
     products: [
         .library(
             name: "SwiftyRSA",
-            type: .dynamic,
-            targets: ["SwiftyRSA"]),
+            targets: ["SwiftyRSA"]
+        ),
     ],
     dependencies: [
     ],
@@ -15,6 +15,7 @@ let package = Package(
         .target(
             name: "SwiftyRSA",
             dependencies: [],
-            path: "Source")
+            path: "Source"
+        ),
     ]
 )
